@@ -11,7 +11,7 @@
 	        $(`<anchor id="${title}"></anchor>`).insertBefore(this)
 	        // var link = $(this).attr('href')
 	        var anchor = `#${title}`
-	        $('#summary-list ul').append(`<li href="${anchor}">${title}</li>`)
+	        $('#summary-list ul').append(`<li><a href="${anchor}">${title}</a></li>`)
 
 	        entries.push({
 	            label: title,
